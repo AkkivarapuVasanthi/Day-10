@@ -17,7 +17,7 @@
         
 }
 
-  .circle {
+  .circle v{
     width: 100px;
     height: 100px;
     background-color: palevioletred;
@@ -26,7 +26,7 @@
 
   }
   .right circle{
-    width: 100px;
+    width: 50px;
     height: 100px;
     background-color: skyblue;
     border-radius: 50%;
@@ -35,5 +35,17 @@
     align-items: right;
 
 
+  }
+
+  .circle{
+    margin: 10px; 
+    width:100px;
+    height:100px;
+    border-radius:100px;
+    font-size:20px;
+    color:#fef;
+    line-height:100px;
+    text-align:center;
+    background:#000
   }
 
